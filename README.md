@@ -60,7 +60,7 @@ ha eliminado la mitad del código en el commit [`7a3fd54`](https://github.com/ad
 ## Promesas
 
 Tenemos una API ya con promesas con la función `getUserData(id)`, al que le
-pasamos el ID de un usuario y nos devuelve la información de ese usuarios.
+pasamos el ID de un usuario y nos devuelve la información de ese usuario.
 
 Tenemos que hacer una función `getFriendsNamesOf(id)`, que nos devuelva un array
 con los nombres de los amigos de ese usuario.
