@@ -49,8 +49,8 @@ voleibolMatch.hasEnded() // true, ya hemos marcado 150 puntos
 
 ## Git
 
-Un enemigo de mi compañero de trabajo Adrián, [tiene este repositorio de aquí](https://github.com/adrian-afergon/InfinityGauntlet).
-ha eliminado la mitad del códig en el commit [`7a3fd54`](https://github.com/adrian-afergon/InfinityGauntlet/commits/master).
+Mi compañero de trabajo Adrián [tiene este repositorio de aquí](https://github.com/adrian-afergon/InfinityGauntlet). Resulta que un enemigo suyo
+ha eliminado la mitad del código en el commit [`7a3fd54`](https://github.com/adrian-afergon/InfinityGauntlet/commits/master).
 ¿Qué comando debemos usar para dehacer ese cambio y como?
 
 ```bash
