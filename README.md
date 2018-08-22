@@ -12,7 +12,7 @@ Ambas clases tienen dos métodos: `scoreAGoal()` y `hasEnded()`. El método
 `scoreAGoal()` sirve para marcar puntos, y el `hasEnded()` devolverá un booleano
 que nos indicará si el partido ha terminado o no.
 
-- En el caso del `Volveibol`, los tantos se anotan de uno en uno, y se considera
+- En el caso del `Voleibol`, los tantos se anotan de uno en uno, y se considera
   que ha acabado el partido cuando llegamos 5 puntos.
 - En el caso del `Quidditch`, los tantos se anotan de 10 en 10, y se considera
   que ha acabado el partido cuando llegamos a 150 puntos.
@@ -25,7 +25,7 @@ Dejen todo el código que hagan dentro del directorio `src/oop`.
 const voleibolMatch = new Voleibol()
 voleibolMatch.score()
 voleibolMatch.score()
-voleibolMatch.hasEnded() // false, todavía falatan 3 puntos para acabar
+voleibolMatch.hasEnded() // false, todavía faltan 3 puntos para acabar
 voleibolMatch.score()
 voleibolMatch.score()
 voleibolMatch.score()
@@ -38,7 +38,7 @@ voleibolMatch.hasEnded() // true, ya hemos marcado 5 puntos
 const quidditchMatch = new Quidditch()
 quidditchMatch.score()
 quidditchMatch.score()
-quidditchMatch.hasEnded() // false, todavía falatan 130 puntos para acabar
+quidditchMatch.hasEnded() // false, todavía faltan 130 puntos para acabar
 quidditchMatch.score()
 quidditchMatch.score()
 quidditchMatch.score()
@@ -53,7 +53,7 @@ voleibolMatch.hasEnded() // true, ya hemos marcado 150 puntos
 
 Mi compañero de trabajo Adrián [tiene este repositorio de aquí](https://github.com/adrian-afergon/InfinityGauntlet). Resulta que un enemigo suyo
 ha eliminado la mitad del código en el commit [`7a3fd54`](https://github.com/adrian-afergon/InfinityGauntlet/commits/master).
-¿Qué comando debemos usar para dehacer ese cambio y como?
+¿Qué comando debemos usar para deshacer ese cambio y cómo?
 
 ```bash
 (pongan aquí el comando)
@@ -82,8 +82,8 @@ código de ejemplo
 ## Recursividad
 
 Crear una función `findFirstCapitalLetter(text)` que debe encontrar la primera
-letra mayúsculas dentro de un string. Si no se encuentra ninguna letra mayúscula
-devolverá un null
+letra mayúsculas dentro de un `string`. Si no se encuentra ninguna letra
+mayúscula devolverá un `null`
 
 ```javascript
 findFirstCapitalLetter('hola Que tal') // => Q
