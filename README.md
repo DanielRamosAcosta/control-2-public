@@ -17,6 +17,8 @@ que nos indicará si el partido ha terminado o no.
 - En el caso del `Quidditch`, los tantos se anotan de 10 en 10, y se considera
   que ha acabado el partido cuando llegamos a 150 puntos.
 
+Dejen todo el código que hagan dentro del directorio `src/oop`.
+
 ### Ejemplo de uso del Voleibol
 
 ```
@@ -65,7 +67,17 @@ pasamos el ID de un usuario y nos devuelve la información de ese usuario.
 Tenemos que hacer una función `getFriendsNamesOf(id)`, que nos devuelva un array
 con los nombres de los amigos de ese usuario.
 
-Pueden ver los ejemplos en los tests.
+Pueden ver los ejemplos en `src/get-friends-names-of.test.js`. Los datos y la
+API original están en `no-tocar/friends-api.js`
+
+## Módulos
+
+¿Qué diferencia hay entre CommonJS y los módulos de ES6? ¿En qué casos deberíamos
+usar uno u otro? Pongan un ejemplo
+
+```
+código de ejemplo
+```
 
 ## Recursividad
 
