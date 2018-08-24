@@ -8,8 +8,8 @@ _Voleibol_ o de _Quidditch_
 Hay que crear una clase `Partido` con dos clases hijas: `Voleibol` y
 `Quidditch`.
 
-Ambas clases tienen dos métodos: `scoreAGoal()` y `hasEnded()`. El método
-`scoreAGoal()` sirve para marcar puntos, y el `hasEnded()` devolverá un booleano
+Ambas clases tienen dos métodos: `score()` y `hasEnded()`. El método
+`score()` sirve para marcar puntos, y el `hasEnded()` devolverá un booleano
 que nos indicará si el partido ha terminado o no.
 
 - En el caso del `Voleibol`, los tantos se anotan de uno en uno, y se considera
@@ -21,7 +21,7 @@ Dejen todo el código que hagan dentro del directorio `src/oop`.
 
 ### Ejemplo de uso del Voleibol
 
-```
+```javascript
 const voleibolMatch = new Voleibol()
 voleibolMatch.score()
 voleibolMatch.score()
@@ -34,7 +34,7 @@ voleibolMatch.hasEnded() // true, ya hemos marcado 5 puntos
 
 ### Ejemplo de uso del Quidditch
 
-```
+```javascript
 const quidditchMatch = new Quidditch()
 quidditchMatch.score()
 quidditchMatch.score()
@@ -55,8 +55,10 @@ Mi compañero de trabajo Adrián [tiene este repositorio de aquí](https://githu
 ha eliminado la mitad del código en el commit [`7a3fd54`](https://github.com/adrian-afergon/InfinityGauntlet/commits/master).
 ¿Qué comando debemos usar para deshacer ese cambio y cómo?
 
+Hay que usar el `revert`
+
 ```bash
-(pongan aquí el comando)
+git revert 7a3fd54
 ```
 
 ## Promesas
@@ -75,8 +77,27 @@ API original están en `no-tocar/friends-api.js`
 ¿Qué diferencia hay entre CommonJS y los módulos de ES6? ¿En qué casos deberíamos
 usar uno u otro? Pongan un ejemplo
 
-```
-código de ejemplo
+CommonJS es el sistema de módulos de Node.js, y los de ES6 son los de la
+especificación del estándar de EcmaScript del 2015.
+
+```javascript
+// CommonJS
+const foo = require('./foo')
+module.exports = bar
+
+const { func } = require('./foo')
+module.exports = {
+  bar
+}
+
+// ES6
+import foo from './foo'
+
+export default function foo()....
+
+import { func } from './foo'
+
+export function foo() ....
 ```
 
 ## Recursividad
